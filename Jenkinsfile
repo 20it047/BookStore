@@ -2,11 +2,7 @@ pipeline {
     agent any
     
     stages {
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/20it047/BookStore.git'
-            }
-        }
+    
         
         stage('Build and Test') {
             steps {
